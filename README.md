@@ -1,8 +1,6 @@
 # [phpEmail](https://github.com/allencasul/phpEmail) ![Github](https://img.shields.io/github/license/allencasul/phpEmail?logo=Github)
 
-# phpEmail
 Send Electronic Mail using PHPMailer with rizalcss-mui.
-
 
 ### phpEmail Guide
 
