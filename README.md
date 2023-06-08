@@ -1,4 +1,4 @@
-# [phpEmail](https://github.com/allencasul/phpEmail) ![](https://img.shields.io/github/package-json/v/allencasul/phpEmail) ![](https://img.shields.io/github/repo-size/allencasul/phpEmail?color=blueviolet&logo=Github&style=plastic) ![Github](https://img.shields.io/github/license/allencasul/phpEmail?logo=Github)
+# [phpEmail](https://github.com/allencasul/phpEmail) ![Github](https://img.shields.io/github/license/allencasul/phpEmail?logo=Github)
 
 # phpEmail
 Send Electronic Mail using PHPMailer with rizalcss-mui.
