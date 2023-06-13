@@ -1,24 +1,24 @@
-/* rizalcss | Under MIT License | github.com/allencasul/rizalcss */
+/* cakecss-ui | Under MIT License | github.com/allencasul/cakecss-ui */
 
 /*--------- Utilities ---------*/
-@import 'node_modules/rizalcss-mui/css/utilities/utilities.min.css';
+@import 'node_modules/cakecss-ui/css/utilities/utilities.min.css';
 
 /*--------- Components ---------*/
-@import 'node_modules/rizalcss-mui/css/components/preloader.css';
-@import 'node_modules/rizalcss-mui/css/components/app-bar.css';
-@import 'node_modules/rizalcss-mui/css/components/side-bar.css';
-@import 'node_modules/rizalcss-mui/css/components/floating-action-button.css';
-@import 'node_modules/rizalcss-mui/css/components/bottom-navigation-bar.css';
-@import 'node_modules/rizalcss-mui/css/components/drop-down-menu.css';
-@import 'node_modules/rizalcss-mui/css/components/alert-dialog.css';
-@import 'node_modules/rizalcss-mui/css/components/bottom-sheet-dialog.css';
-@import 'node_modules/rizalcss-mui/css/components/toast.css';
-@import 'node_modules/rizalcss-mui/css/components/card.css';
-@import 'node_modules/rizalcss-mui/css/components/input.css';
-@import 'node_modules/rizalcss-mui/css/components/checkbox.css';
-@import 'node_modules/rizalcss-mui/css/components/button.css';
-@import 'node_modules/rizalcss-mui/css/components/onboarding-screen.css';
-@import 'node_modules/rizalcss-mui/css/components/table.css';
+@import 'node_modules/cakecss-ui/css/components/preloader.css';
+@import 'node_modules/cakecss-ui/css/components/app-bar.css';
+@import 'node_modules/cakecss-ui/css/components/side-bar.css';
+@import 'node_modules/cakecss-ui/css/components/floating-action-button.css';
+@import 'node_modules/cakecss-ui/css/components/bottom-navigation-bar.css';
+@import 'node_modules/cakecss-ui/css/components/drop-down-menu.css';
+@import 'node_modules/cakecss-ui/css/components/alert-dialog.css';
+@import 'node_modules/cakecss-ui/css/components/bottom-sheet-dialog.css';
+@import 'node_modules/cakecss-ui/css/components/toast.css';
+@import 'node_modules/cakecss-ui/css/components/card.css';
+@import 'node_modules/cakecss-ui/css/components/input.css';
+@import 'node_modules/cakecss-ui/css/components/checkbox.css';
+@import 'node_modules/cakecss-ui/css/components/button.css';
+@import 'node_modules/cakecss-ui/css/components/onboarding-screen.css';
+@import 'node_modules/cakecss-ui/css/components/table.css';
 
 @media screen and (min-width: 768px) {
   /*--------- Tablet ---------*/
