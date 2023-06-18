@@ -1,24 +1,24 @@
-/* cakecss-ui | Under MIT License | github.com/allencasul/cakecss-ui */
+/* candymint | Under MIT License | github.com/allencasul/candymint */
 
-/*--------- Utilities ---------*/
-@import 'node_modules/cakecss-ui/css/utilities/utilities.min.css';
+@import 'node_modules/candymint/css/utilities/utilities.min.css';
 
 /*--------- Components ---------*/
-@import 'node_modules/cakecss-ui/css/components/preloader.css';
-@import 'node_modules/cakecss-ui/css/components/app-bar.css';
-@import 'node_modules/cakecss-ui/css/components/side-bar.css';
-@import 'node_modules/cakecss-ui/css/components/floating-action-button.css';
-@import 'node_modules/cakecss-ui/css/components/bottom-navigation-bar.css';
-@import 'node_modules/cakecss-ui/css/components/drop-down-menu.css';
-@import 'node_modules/cakecss-ui/css/components/alert-dialog.css';
-@import 'node_modules/cakecss-ui/css/components/bottom-sheet-dialog.css';
-@import 'node_modules/cakecss-ui/css/components/toast.css';
-@import 'node_modules/cakecss-ui/css/components/card.css';
-@import 'node_modules/cakecss-ui/css/components/input.css';
-@import 'node_modules/cakecss-ui/css/components/checkbox.css';
-@import 'node_modules/cakecss-ui/css/components/button.css';
-@import 'node_modules/cakecss-ui/css/components/onboarding-screen.css';
-@import 'node_modules/cakecss-ui/css/components/table.css';
+@import 'node_modules/candymint/css/components/preloader.css';
+@import 'node_modules/candymint/css/components/app-bar.css';
+@import 'node_modules/candymint/css/components/side-bar.css';
+@import 'node_modules/candymint/css/components/floating-action-button.css';
+@import 'node_modules/candymint/css/components/bottom-navigation-bar.css';
+@import 'node_modules/candymint/css/components/drop-down-menu.css';
+@import 'node_modules/candymint/css/components/alert-dialog.css';
+@import 'node_modules/candymint/css/components/bottom-sheet-dialog.css';
+@import 'node_modules/candymint/css/components/toast.css';
+@import 'node_modules/candymint/css/components/card.css';
+@import 'node_modules/candymint/css/components/input.css';
+@import 'node_modules/candymint/css/components/checkbox.css';
+@import 'node_modules/candymint/css/components/button.css';
+@import 'node_modules/candymint/css/components/stepper.css';
+@import 'node_modules/candymint/css/components/onboarding-screen.css';
+@import 'node_modules/candymint/css/components/table.css';
 
 @media screen and (min-width: 768px) {
   /*--------- Tablet ---------*/
