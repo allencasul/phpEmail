@@ -1,6 +1,6 @@
 # [phpEmail](https://github.com/allencasul/phpEmail) ![Github](https://img.shields.io/github/license/allencasul/phpEmail?logo=Github)
 
-Send Electronic Mail using PHPMailer with Candy Mint CSS Framework.
+Send Electronic Mail using PHPMailer with [Lonica CSS Framework](https://github.com/allencasul/Lonica)
 
 ### phpEmail Guide
 
