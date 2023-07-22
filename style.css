@@ -1,24 +1,25 @@
-/* candymint | Under MIT License | github.com/allencasul/candymint */
+/* lonica | Under MIT License | github.com/allencasul/lonica */
 
-@import 'node_modules/candymint/css/utilities/utilities.min.css';
+/*--------- Utilities ---------*/
+@import 'node_modules/lonica/css/utilities/utilities.min.css';
 
 /*--------- Components ---------*/
-@import 'node_modules/candymint/css/components/preloader.css';
-@import 'node_modules/candymint/css/components/app-bar.css';
-@import 'node_modules/candymint/css/components/side-bar.css';
-@import 'node_modules/candymint/css/components/floating-action-button.css';
-@import 'node_modules/candymint/css/components/bottom-navigation-bar.css';
-@import 'node_modules/candymint/css/components/drop-down-menu.css';
-@import 'node_modules/candymint/css/components/alert-dialog.css';
-@import 'node_modules/candymint/css/components/bottom-sheet-dialog.css';
-@import 'node_modules/candymint/css/components/toast.css';
-@import 'node_modules/candymint/css/components/card.css';
-@import 'node_modules/candymint/css/components/input.css';
-@import 'node_modules/candymint/css/components/checkbox.css';
-@import 'node_modules/candymint/css/components/button.css';
-@import 'node_modules/candymint/css/components/stepper.css';
-@import 'node_modules/candymint/css/components/onboarding-screen.css';
-@import 'node_modules/candymint/css/components/table.css';
+@import 'node_modules/lonica/css/components/preloader.css';
+@import 'node_modules/lonica/css/components/app-bar.css';
+@import 'node_modules/lonica/css/components/side-bar.css';
+@import 'node_modules/lonica/css/components/floating-action-button.css';
+@import 'node_modules/lonica/css/components/bottom-navigation-bar.css';
+@import 'node_modules/lonica/css/components/drop-down-menu.css';
+@import 'node_modules/lonica/css/components/alert-dialog.css';
+@import 'node_modules/lonica/css/components/bottom-sheet-dialog.css';
+@import 'node_modules/lonica/css/components/toast.css';
+@import 'node_modules/lonica/css/components/card.css';
+@import 'node_modules/lonica/css/components/input.css';
+@import 'node_modules/lonica/css/components/checkbox.css';
+@import 'node_modules/lonica/css/components/button.css';
+@import 'node_modules/lonica/css/components/stepper.css';
+@import 'node_modules/lonica/css/components/onboarding-screen.css';
+@import 'node_modules/lonica/css/components/table.css';
 
 @media screen and (min-width: 768px) {
   /*--------- Tablet ---------*/
@@ -26,4 +27,4 @@
 
 @media screen and (min-width: 1126px) {
   /*--------- Desktop ---------*/
-}
+}  

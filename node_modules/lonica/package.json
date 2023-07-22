@@ -1,0 +1,27 @@
+{
+  "name": "lonica",
+  "version": "1.0.0",
+  "description": "A lightweight design system framework primarily for building hybrid mobile app user interfaces.",
+  "main": "utilities.min.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allencasul/lonica.git"
+  },
+  "keywords": [
+    "Lonica",
+    "lonica",
+    "Lonica CSS Framework",
+    "lonica css framework",
+    "lonica framework",
+    "lonicacss",
+    "css"
+  ],
+  "author": "Allen Charls Casul",
+  "email": "allencasul.dev@gmail.com",
+  "url": "https://github.com/allencasul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/allencasul/lonica/issues"
+  },
+  "homepage": "https://github.com/allencasul/lonica"
+}

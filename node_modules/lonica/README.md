@@ -1,0 +1,881 @@
+# [Lonica CSS](https://github.com/allencasul/lonica) ![](https://img.shields.io/github/package-json/v/allencasul/lonica) [![](https://data.jsdelivr.com/v1/package/npm/lonica/badge)](https://www.jsdelivr.com/package/npm/lonica) ![](https://img.shields.io/npm/dm/lonica?color=red&logo=npm) ![Github](https://img.shields.io/github/license/allencasul/lonica?logo=Github)
+
+
+An open-source design system framework that provides access to pre-built class components to quickly build modern web apps or use built-in utility classes to write custom CSS directly inside your markup.
+
+<!-- <img src="#" style="max-width:100%;" width="325"> -->
+
+## Installation
+
+Installing Lonica CSS
+
+### Utilizing Framework via NPM
+
+```sh
+npm install lonica
+```
+
+Overview:
+
+## Framework Description
+
+**Lonica** is a lightweight design system framework primarily for building hybrid mobile app user interfaces. It is designed to simplify the process of building websites and applications by providing a set of pre-designed UI elements, layout structures, and reusable components that can be easily customized to fit specific project requirements. Lonica CSS Framework comes with a simple and intuitive Documentation, making it easy for both beginners and experienced developers to use it. Its responsive nature allows it to adapt to different screen sizes, making it ideal for building mobile-first web applications.
+
+## Browser Support
+
+- Chrome
+- Edge
+- Firefox
+- Opera & any modern browser
+
+### HTML Template
+
+Create index.html file, and copy paste the boilerplate below.
+
+```sh
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover"/>
+  <meta name="color-scheme" content="light"/>
+  <meta name="theme-color" content="#7542F1"/>
+  <meta name="description" content="Lonica CSS Framework, your front-end development partner."/>
+  <meta name="keywords" content="Lonica CSS Framework, lonica"/>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="node_modules/lonica/js/jquery.min.js"></script>
+  <script defer src="https://kit.fontawesome.com/1e8d61f212.js"></script>
+  <title>Lonica CSS: Modern CSS Framework</title>
+</head>
+<body>
+
+  <section>
+  <!--APP BAR-->
+  </section>
+
+  <section>
+  <!--DROP DOWN MENU-->
+  </section>
+
+  <section>
+  <!--FLOATING ACTION BUTTON-->
+  </section>
+
+  <section>
+  <!--BOTTOM NAVIGATION BAR-->
+  </section>
+
+  <section>
+  <!--SEARCH-->
+  </section>
+
+  <section>
+  <!--BOTTOM SHEET DIALOG-->
+  </section>
+
+  <section>
+  <!--SIDE BAR-->
+  </section>
+
+  <section>
+  <!--ALERT DIALOG-->
+  </section>
+
+  <section>
+  <!--TOAST-->
+  </section>
+
+  <section>
+  <!--CARD-->
+  </section>
+
+  <section>
+  <!--PRELOADER-->
+    <div class="primary-preloader-overlay" id="primaryPreloaderOverlay">
+      <div class="primary-preloader-container">
+        <div class="primary-preloader-content-container">
+          <div class="primary-preloader">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script defer src="node_modules/lonica/js/components.min.js"></script>
+</body>
+</html>
+```
+
+### CSS Template
+
+Create style.css file, and copy paste the code below.
+
+```sh
+/* lonica | Under MIT License | github.com/allencasul/lonica */
+
+/*--------- Utilities ---------*/
+@import 'node_modules/lonica/css/utilities/utilities.min.css';
+
+/*--------- Components ---------*/
+@import 'node_modules/lonica/css/components/preloader.css';
+@import 'node_modules/lonica/css/components/app-bar.css';
+@import 'node_modules/lonica/css/components/side-bar.css';
+@import 'node_modules/lonica/css/components/floating-action-button.css';
+@import 'node_modules/lonica/css/components/bottom-navigation-bar.css';
+@import 'node_modules/lonica/css/components/drop-down-menu.css';
+@import 'node_modules/lonica/css/components/alert-dialog.css';
+@import 'node_modules/lonica/css/components/bottom-sheet-dialog.css';
+@import 'node_modules/lonica/css/components/toast.css';
+@import 'node_modules/lonica/css/components/card.css';
+@import 'node_modules/lonica/css/components/input.css';
+@import 'node_modules/lonica/css/components/checkbox.css';
+@import 'node_modules/lonica/css/components/button.css';
+@import 'node_modules/lonica/css/components/stepper.css';
+@import 'node_modules/lonica/css/components/onboarding-screen.css';
+@import 'node_modules/lonica/css/components/table.css';
+
+@media screen and (min-width: 768px) {
+  /*--------- Tablet ---------*/
+}
+
+@media screen and (min-width: 1126px) {
+  /*--------- Desktop ---------*/
+}   
+```
+
+### Utilizing Components
+
+Use all available pre-made components below:
+
+
+### Preloader
+
+```sh
+<div class="primary-preloader-overlay" id="primaryPreloaderOverlay">
+  <div class="primary-preloader-container">
+    <div class="primary-preloader-content-container">
+      <div class="primary-preloader">
+
+      </div>
+    </div>
+  </div>
+</div>
+
+------------------------------------------------------------------
+
+<div class="secondary-preloader-overlay" id="secondaryPreloaderOverlay">
+  <div class="secondary-preloader-container">
+    <div class="secondary-preloader-content-container">
+      <div class="secondary-preloader">
+
+      </div>
+    </div>
+  </div>
+</div>
+
+------------------------------------------------------------------
+
+<div class="tertiary-preloader-overlay" id="tertiaryPreloaderOverlay">
+  <div class="tertiary-preloader-container">
+    <div class="tertiary-preloader-content-container">
+      <div class="tertiary-preloader">
+
+      </div>
+    </div>
+  </div>
+</div>
+
+------------------------------------------------------------------
+
+<div class="quaternary-preloader-overlay" id="quaternaryPreloaderOverlay">
+  <div class="quaternary-preloader-container">
+    <div class="quaternary-preloader-content-container">
+      <div class="quaternary-preloader">
+
+      </div>
+    </div>
+  </div>
+</div>
+
+------------------------------------------------------------------
+
+<div class="quinary-preloader-overlay" id="quinaryPreloaderOverlay">
+  <div class="quinary-preloader-container">
+    <div class="quinary-preloader-content-container">
+      <div class="quinary-preloader">
+        <img class="quinary-pulse-gif" src="https://firebasestorage.googleapis.com/v0/b/lonica.appspot.com/o/gif%2Fpulse.gif?alt=media&token=050845aa-4a5c-4262-b214-2aaae48c2935">
+      </div>
+    </div>
+  </div>
+</div>
+
+------------------------------------------------------------------
+
+<div class="senary-preloader-overlay" id="senaryPreloaderOverlay">
+  <div class="senary-preloader-container">
+    <div class="senary-preloader-content-container">
+      <div class="senary-preloader">
+
+      </div>
+      <div class="senary-preloader-text">
+        Loading, please wait...
+      </div>
+    </div>
+  </div>
+</div>
+
+------------------------------------------------------------------
+
+<div class="septenary-preloader-overlay" id="septenaryPreloaderOverlay">
+  <div class="septenary-preloader-container">
+    <div class="septenary-preloader-text">Processing...</div>
+    <div class="septenary-preloader-content-container">
+      <div class="septenary-preloader">
+
+      </div>
+    </div>
+  </div>
+</div>
+
+------------------------------------------------------------------
+
+<div class="octonary-preloader-overlay" id="octonaryPreloaderOverlay">
+  <div class="octonary-preloader-container">
+    <div class="octonary-preloader-content-container">
+      <div class="octonary-preloader">
+
+      </div>
+    </div>
+  </div>
+</div>
+```
+
+### App Bar
+
+```sh
+<div class="primary-app-bar-container background_color_primary">
+  <div class="primary-app-bar-content-container">
+    <div class="primary-app-bar-left-container">
+      <div class="primary-app-bar-left-content-container">
+        <div class="bar-container" id="showSideBarComponent" data-toggle="tooltip" title="Menu">
+          <div class="bar background_color_white"></div>
+          <div class="bar background_color_white"></div>
+          <div class="bar background_color_white"></div>
+        </div>
+      </div>
+      <div class="app-bar-title color_white">Home</div>
+    </div>
+    <div class="primary-app-bar-right-container">
+      <div class="primary-app-bar-right-content-container" id="showDropdownMenuComponent" data-toggle="tooltip" title="Dropdown">
+        <i class="fa-solid fa-ellipsis-v app-bar-icon color_white"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+------------------------------------------------------------------
+
+<div class="secondary-app-bar-container background_color_primary">
+  <div class="secondary-app-bar-content-container">
+    <div class="secondary-app-bar-left-container">
+      <div class="secondary-app-bar-left-content-container">
+        <div class="bar-container" id="showSideBarComponent" data-toggle="tooltip" title="Menu">
+          <div class="bar background_color_white"></div>
+          <div class="bar background_color_white"></div>
+          <div class="bar background_color_white"></div>
+        </div>
+      </div>
+      <div class="app-bar-title color_white">Home</div>
+    </div>
+    <div class="secondary-app-bar-right-container">
+      <div class="secondary-app-bar-right-content-container penultimate" id="showSearchComponent" data-toggle="tooltip" title="Search">
+        <i class="fa-solid fa-search app-bar-icon color_white"></i>
+      </div>
+      <div class="secondary-app-bar-right-content-container" id="showDropdownMenuComponent" data-toggle="tooltip" title="Dropdown">
+        <i class="fa-solid fa-ellipsis-v app-bar-icon color_white"></i>
+      </div>
+    </div>
+  </div>
+</div> 
+
+------------------------------------------------------------------
+
+<div class="tertiary-app-bar-container background_color_primary">
+  <div class="tertiary-app-bar-content-container">
+    <div class="tertiary-app-bar-left-container">
+      <div class="tertiary-app-bar-left-content-container">
+        <div class="bar-container" id="showSideBarComponent" data-toggle="tooltip" title="Menu">
+          <div class="bar background_color_white"></div>
+          <div class="bar background_color_white"></div>
+          <div class="bar background_color_white"></div>
+        </div>
+      </div>
+      <div class="app-bar-title color_white">Home</div>
+    </div>
+    <div class="tertiary-app-bar-right-container">
+      <div class="tertiary-app-bar-right-content-container" id="showDropdownMenuComponent" data-toggle="tooltip" title="Account">
+        <img class="tertiary-app-bar-right-content-image" src="https://firebasestorage.googleapis.com/v0/b/lonica.appspot.com/o/img%2Ffounder.webp?alt=media&token=12adc7a0-76a4-4cf1-980f-38d3afd61ff4" alt="profile-photo">
+      </div>
+    </div>
+  </div>
+</div>
+
+------------------------------------------------------------------
+
+<div class="quaternary-app-bar-container background_color_primary">
+  <div class="quaternary-app-bar-content-container">
+    <div class="quaternary-app-bar-left-container">
+      <div class="quaternary-app-bar-left-content-container">
+        <div class="bar-container" id="showSideBarComponent" data-toggle="tooltip" title="Menu">
+          <div class="bar background_color_white"></div>
+          <div class="bar background_color_white"></div>
+          <div class="bar background_color_white"></div>
+        </div>
+      </div>
+      <div class="app-bar-title color_white">Home</div>
+    </div>
+    <div class="quaternary-app-bar-right-container">
+      <div class="quaternary-app-bar-right-content-container penultimate" id="showSearchComponent" data-toggle="tooltip" title="Search">
+        <i class="fa fa-search app-bar-icon color_white"></i>
+      </div>
+      <div class="quaternary-app-bar-right-content-container" id="showDropdownMenuComponent" data-toggle="tooltip" title="Dropdown">
+        <i class="fa fa-ellipsis-v app-bar-icon color_white"></i>
+      </div>
+    </div>
+  </div>
+  <div class="quaternary-app-bar-tab-container">
+    <div class="quaternary-app-bar-tab-content-container">
+      <div class="quaternary-app-bar-tab-content color_white font_size_small cursor_pointer">
+        <div class="quaternary-app-bar-tab">
+          <i class="fa fa-compass app-bar-icon"></i>
+          EXPLORE
+        </div>
+        <div class="quaternary-app-bar-tab-content-horizontal-line background_color_white"></div>
+      </div>
+      <div class="quaternary-app-bar-tab-content color_disabled font_size_small cursor_pointer">
+        <div class="quaternary-app-bar-tab">
+          <i class="fa fa-map app-bar-icon"></i>
+          TRIPS
+        </div>
+        <div class="quaternary-app-bar-tab-content-horizontal-line background_color_transparent"></div>
+      </div>
+    </div>
+  </div>
+</div>
+```
+
+### Side Bar
+
+```sh
+<div class="primary-side-bar-overlay background_color_overlay" id="primarySideBarOverlay"></div>
+<div class="primary-side-bar-container background_color_white" id="primarySideBarContainer">
+  <div class="primary-side-bar-content-container">
+
+  </div>
+</div>
+
+------------------------------------------------------------------
+
+<div class="secondary-side-bar-container w_4_point_5_rem h_100_vh background_color_white box_shadow_primary">
+  <div class="secondary-side-bar-content-container center_absolute display_grid place_content_center row_gap_3_rem">
+    <i class="fa-solid fa-home color_primary font_size_larger cursor_pointer" title="Home"></i>
+    <i class="fa-regular fa-comment-alt color_toast font_size_larger cursor_pointer" title="Chat"></i>
+    <i class="fa-regular fa-user color_toast font_size_larger cursor_pointer" title="Profile"></i>
+    <i class="fa-solid fa-share-alt color_toast font_size_larger cursor_pointer" title="Share"></i>
+  </div>
+</div>
+```
+
+## Floating Action Button
+
+```sh
+<div class="primary-floating-action-button background_color_primary" id="showBottomSheetDialogComponent">
+  <i class="fa-solid fa-plus primary-floating-action-button-icon color_white"></i>
+</div>
+
+------------------------------------------------------------------
+
+<div class="secondary-floating-action-button background_color_primary" id="showBottomSheetDialogComponent">
+  <i class="fa-solid fa-plus secondary-floating-action-button-icon color_white"></i>
+  <div class="secondary-floating-action-button-text-title color_white">Compose</div>
+</div>
+```
+
+## Bottom Navigation Bar
+
+```sh
+<div class="primary-bottom-navigation-bar-container background_color_white">
+  <div class="primary-bottom-navigation-bar-content-container">
+    <div class="primary-bottom-navigation-bar-content">
+      <i class="fa-solid fa-home primary-bottom-navigation-bar-icon color_primary"></i>
+      <div class="primary-bottom-navigation-bar-text-title color_primary">Home</div>
+    </div>
+    <div class="primary-bottom-navigation-bar-content">
+      <i class="fa-solid fa-heart primary-bottom-navigation-bar-icon color_black"></i>
+      <div class="primary-bottom-navigation-bar-text-title color_black">Favorites</div>
+    </div>
+    <div class="primary-bottom-navigation-bar-content" data-toggle="tooltip" title="FAB">
+      <div class="primary-bottom-navigation-floating-action-button background_color_primary" id="showBottomSheetDialogComponent">
+        <i class="fa-solid fa-plus primary-floating-action-button-icon"></i>
+      </div>
+    </div>
+    <div class="primary-bottom-navigation-bar-content">
+      <i class="fa-solid fa-cart-shopping primary-bottom-navigation-bar-icon color_black"></i>
+      <div class="primary-bottom-navigation-bar-text-title color_black">Cart</div>
+    </div>
+    <div class="primary-bottom-navigation-bar-content">
+      <i class="fa-solid fa-user primary-bottom-navigation-bar-icon color_black"></i>
+      <div class="primary-bottom-navigation-bar-text-title color_black">Account</div>
+    </div>
+  </div>
+</div>      
+```
+
+## Drop Down Menu
+
+```sh
+<div class="primary-drop-down-menu-overlay" id="primaryDropDownMenuOverlay"></div>
+<div class="primary-drop-down-menu-container background_color_white" id="primaryDropDownMenuContainer">
+  <div class="primary-drop-down-menu-content-container">
+    <i class="fa-solid fa-newspaper primary-drop-down-menu-icon color_black"></i>
+    <p class="primary-drop-down-menu-icon-text color_black">Documentation</p>
+  </div>
+  <div class="primary-drop-down-menu-content-container">
+    <i class="fa-solid fa-pager primary-drop-down-menu-icon color_black"></i>
+    <p class="primary-drop-down-menu-icon-text color_black">Blog</p>
+  </div>
+  <div class="primary-drop-down-menu-content-container">
+    <i class="fa-solid fa-phone primary-drop-down-menu-icon color_black"></i>
+    <p class="primary-drop-down-menu-icon-text color_black">Contact</p>
+  </div>
+</div> 
+```
+
+## Alert Dialog
+
+```sh
+<div class="primary-alert-dialog-overlay" id="primaryAlertDialogOverlay"></div>
+<div class="primary-alert-dialog-container" id="primaryAlertDialogContainer">
+  <div class="primary-alert-dialog-content-container">
+    <div class="primary-alert-dialog-text-title">Delete Account?</div>
+    <div class="primary-alert-dialog-text-description">
+      This will delete your account permanently.
+    </div>
+    <div class="primary-alert-dialog-action-container">
+      <div class="primary-alert-dialog-action" id="hideAlertDialog">Cancel</div>
+      <div class="primary-alert-dialog-action color_danger">Delete</div>
+    </div>
+  </div>
+</div>
+```
+
+## Bottom Sheet Dialog
+
+```sh
+<div class="primary-bottom-sheet-dialog-overlay" id="primaryBottomSheetDialogOverlay"></div>
+<div class="primary-bottom-sheet-dialog-container" id="primaryBottomSheetDialogContainer">
+  <div class="primary-bottom-sheet-dialog-content-container">
+    <div class="primary-bottom-sheet-dialog-content"><i class="fa-solid fa-share primary-bottom-sheet-dialog-content-icon"></i> Share</div>
+    <div class="primary-bottom-sheet-dialog-content"><i class="fa-solid fa-link primary-bottom-sheet-dialog-content-icon"></i> Get link</div>
+    <div class="primary-bottom-sheet-dialog-content"><i class="fa-solid fa-pencil primary-bottom-sheet-dialog-content-icon"></i> Edit</div>
+    <div class="primary-bottom-sheet-dialog-content"><i class="fa-solid fa-trash primary-bottom-sheet-dialog-content-icon"></i> Delete</div>
+  </div>
+</div>
+
+------------------------------------------------------------------
+
+<div class="secondary-bottom-sheet-dialog-overlay" id="secondaryBottomSheetDialogOverlay"></div>
+<div class="secondary-bottom-sheet-dialog-container" id="secondaryBottomSheetDialogContainer">
+  <div class="secondary-bottom-sheet-dialog-content-container">
+    <div class="secondary-bottom-sheet-dialog-title">Options</div>
+      <div class="secondary-bottom-sheet-dialog-content"><i class="fa-solid fa-share secondary-bottom-sheet-dialog-content-icon"></i> Share</div>
+      <div class="secondary-bottom-sheet-dialog-content"><i class="fa-solid fa-link secondary-bottom-sheet-dialog-content-icon"></i> Get link</div>
+      <div class="secondary-bottom-sheet-dialog-content"><i class="fa-solid fa-pencil secondary-bottom-sheet-dialog-content-icon"></i> Edit</div>
+    <div class="secondary-bottom-sheet-dialog-content"><i class="fa-solid fa-trash secondary-bottom-sheet-dialog-content-icon"></i> Delete</div>
+  </div>
+</div>
+```
+
+## Toast
+
+```sh
+<div class="primary-toast-container background_color_toast" id="primaryToastContainer">
+  <div class="primary-toast-content-container">
+    <div class="primary-toast-content color_white">
+      <i class="fa-solid fa-circle-exclamation primary-toast-icon color_white"></i> File was uploaded
+    </div>
+  </div>
+</div>
+
+------------------------------------------------------------------
+
+<div class="secondary-toast-container background_color_toast" id="secondaryToastContainer">
+  <div class="secondary-toast-content-container">
+    <div class="secondary-toast-content color_white">
+      <i class="fa-solid fa-circle-exclamation secondary-toast-icon color_white"></i> File was uploaded
+    </div>
+  </div>
+</div>
+```
+
+## Card
+
+```sh
+<div class="primary-card-container">
+  <div class="primary-card-content-container">
+    <div class="primary-card-content background_color_white">
+      <img class="primary-card-image" src="https://source.unsplash.com/random" alt="random-image"/>
+      <div class="primary-card-title color_black font_size_medium color_black">Top 10 Best Photos</div>
+      <div class="primary-card-description color_toast font_size_medium">
+        ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </div>
+    </div>
+    <div class="primary-card-content background_color_white">
+      <img class="primary-card-image" src="https://source.unsplash.com/featured" alt="random-image"/>
+      <div class="primary-card-title color_black font_size_medium color_black">Top 10 Best Photos</div>
+      <div class="primary-card-description color_toast font_size_medium">
+        ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </div>
+    </div>
+    <div class="primary-card-content background_color_white">
+      <img class="primary-card-image" src="https://source.unsplash.com/featured/colors" alt="random-image"/>
+      <div class="primary-card-title color_black font_size_medium color_black">Top 10 Best Photos</div>
+      <div class="primary-card-description color_toast font_size_medium">
+        ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </div>
+    </div>
+    <div class="primary-card-content background_color_white">
+      <img class="primary-card-image" src="https://source.unsplash.com/featured/clouds" alt="random-image"/>
+      <div class="primary-card-title color_black font_size_medium color_black">Top 10 Best Photos</div>
+      <div class="primary-card-description color_toast font_size_medium">
+        ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </div>
+    </div>
+    <div class="primary-card-content background_color_white">
+      <img class="primary-card-image" src="https://source.unsplash.com/random/picture" alt="random-image"/>
+      <div class="primary-card-title color_black font_size_medium color_black">Top 10 Best Photos</div>
+      <div class="primary-card-description color_toast font_size_medium">
+        ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </div>
+    </div>
+  </div>
+</div>
+            
+------------------------------------------------------------------
+
+<div class="secondary-card-container w_22_rem h_fit_content background_color_white">
+  <div class="secondary-card-content-container">
+    <div class="secondary-card-top-container">
+      <div class="secondary-card-top-image-container">
+        <img class="secondary-card-top-image background_color_skeleton" src="https://firebasestorage.googleapis.com/v0/b/lonica.appspot.com/o/img%2Ffounder.webp?alt=media&token=12adc7a0-76a4-4cf1-980f-38d3afd61ff4" alt="profile-photo">
+      </div>
+      <div class="secondary-card-top-text-icon-container">
+        <div class="secondary-card-top-text-container">
+          <div class="secondary-card-top-text-title color_black font_size_medium font_weight_600">Lonica CSS Framework</div>
+          <div class="secondary-card-top-text-description color_tost font_size_smaller">January 12, 2023</div>
+        </div>
+        <div class="secondary-card-top-icon-container" data-toggle="tooltip" title="Option">
+          <i class="fa-solid fa-ellipsis secondary-card-icon color_black"></i>
+        </div>
+      </div>
+    </div>
+    <div class="secondary-card-bottom-container">
+      <img class="secondary-card-bottom-image h_12_rem" src="https://source.unsplash.com/random/portrait" alt="random-image"/>
+      <div class="secondary-card-bottom-description color_toast font_size_medium">ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</div>
+      <div class="secondary-card-bottom-text-icon-container">
+        <div class="secondary-card-bottom-icon-container">
+          <i class="fa-solid fa-heart secondary-card-icon color_love" data-toggle="tooltip" title="Heart Post"></i>
+          <i class="fa-solid fa-thumbs-up secondary-card-icon color_toast" data-toggle="tooltip" title="Like Post"></i>
+          <i class="fa-solid fa-share secondary-card-icon color_toast" data-toggle="tooltip" title="Share Post"></i>
+        </div>
+        <div class="secondary-card-bottom-text-container color_enterprise_black font_size_medium"><i class="fa-solid fa-comment-dots secondary-card-icon color_toast" data-toggle="tooltip" title="Comment"></i></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+------------------------------------------------------------------
+
+<div class="tertiary-card-container">
+  <div class="tertiary-card-content-container">
+    <div class="tertiary-card-content background_color_white">
+      <img class="tertiary-card-image" src="https://source.unsplash.com/random" alt="random-image"/>
+      <div class="tertiary-card-title color_black font_size_medium color_black">Top 10 Best Photos</div>
+      <div class="tertiary-card-description color_toast font_size_medium">
+        ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </div>
+      <div class="tertiary-card-content-bottom-container">
+        <div class="tertiary-card-content-bottom-text font_size_small font_weight_700 color_primary">Explore</div>
+        <div class="tertiary-card-content-bottom-text font_size_small font_weight_700 color_primary">Share</div>
+      </div>
+    </div>
+    <div class="tertiary-card-content background_color_white">
+      <img class="tertiary-card-image" src="https://source.unsplash.com/random/people" alt="random-image"/>
+      <div class="tertiary-card-title color_black font_size_medium color_black">Top 10 Best Photos</div>
+      <div class="tertiary-card-description color_toast font_size_medium">
+        ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </div>
+      <div class="tertiary-card-content-bottom-container">
+        <div class="tertiary-card-content-bottom-text font_size_small font_weight_700 color_primary">Explore</div>
+        <div class="tertiary-card-content-bottom-text font_size_small font_weight_700 color_primary">Share</div>
+      </div>
+    </div>
+    <div class="tertiary-card-content background_color_white">
+      <img class="tertiary-card-image" src="https://source.unsplash.com/random/clouds" alt="random-image"/>
+      <div class="tertiary-card-title color_black font_size_medium color_black">Top 10 Best Photos</div>
+      <div class="tertiary-card-description color_toast font_size_medium">
+        ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </div>
+      <div class="tertiary-card-content-bottom-container">
+        <div class="tertiary-card-content-bottom-text font_size_small font_weight_700 color_primary">Explore</div>
+        <div class="tertiary-card-content-bottom-text font_size_small font_weight_700 color_primary">Share</div>
+      </div>
+    </div>
+    <div class="tertiary-card-content background_color_white">
+      <img class="tertiary-card-image" src="https://source.unsplash.com/random/colors" alt="random-image"/>
+      <div class="tertiary-card-title color_black font_size_medium color_black">Top 10 Best Photos</div>
+      <div class="tertiary-card-description color_toast font_size_medium">
+        ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </div>
+      <div class="tertiary-card-content-bottom-container">
+        <div class="tertiary-card-content-bottom-text font_size_small font_weight_700 color_primary">Explore</div>
+        <div class="tertiary-card-content-bottom-text font_size_small font_weight_700 color_primary">Share</div>
+      </div>
+    </div>
+    <div class="tertiary-card-content background_color_white">
+      <img class="tertiary-card-image" src="https://source.unsplash.com/random/woman" alt="random-image"/>
+      <div class="tertiary-card-title color_black font_size_medium color_black">Top 10 Best Photos</div>
+      <div class="tertiary-card-description color_toast font_size_medium">
+        ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </div>
+      <div class="tertiary-card-content-bottom-container">
+        <div class="tertiary-card-content-bottom-text font_size_small font_weight_700 color_primary">Explore</div>
+        <div class="tertiary-card-content-bottom-text font_size_small font_weight_700 color_primary">Share</div>
+      </div>
+    </div>
+  </div>
+</div>
+```
+
+## Form 
+
+```sh
+<div class="secondary-input-container center_absolute w_fit_content h_fit_content background_color_white border_radius_secondary">
+  <div class="secondary-input-title font_size_massive color_primary margin_bottom_1_rem text_align_center font_weight_bold">Register</div>
+  <div class="secondary-input-description font_size_medium color_toast margin_bottom_3_rem text_align_center w_19_point_5_rem">Your future friends are waiting for you to join. Create Account Now!</div>
+  <form class="w_100_pct h_100_pct display_grid place_content_center" action="#" method="post">
+    <div class="secondary-input-content-container margin_bottom_1_rem w_19_point_5_rem border_primary border_radius_secondary">
+      <input class="secondary-input" type="text" placeholder=" " autocomplete="off"/>
+      <label>Email</label>
+      <i class="fa-solid fa-envelope secondary_input_icon color_primary"></i>
+    </div>
+    <div class="secondary-input-content-container margin_bottom_1_rem w_19_point_5_rem border_primary border_radius_secondary">
+      <input class="secondary-input" type="text" placeholder=" " autocomplete="off"/>
+      <label>Username</label>
+      <i class="fa-solid fa-user secondary_input_icon color_primary"></i>
+    </div>
+    <div class="secondary-input-content-container margin_bottom_1_rem w_19_point_5_rem border_primary border_radius_secondary">
+      <input class="secondary-input" type="password" placeholder=" " autocomplete="off"/>
+      <label>Password</label>
+      <i class="fa-solid fa-lock secondary_input_icon color_primary"></i>
+    </div>
+    <div class="primary-checkbox-container margin_bottom_2_rem">
+      <input class="primary-checkbox" type="checkbox" required>
+      <div class="primary-checkbox-description color_toast font_size_small">I agree to the <a class="font_size_small color_primary" href="https://lonica.com/privacy-policy" target="_blank">Privacy Policy</a>.</div>
+    </div>
+    <button class="primary-button background_color_primary font_size_medium color_white border_radius_secondary">
+      Register <i class="fa-solid fa-arrow-right primary-button-icon color_white"></i>
+    </button>
+  </form>
+</div>
+```
+
+## Stepper
+
+```sh
+<div class="primary-stepper-container">
+  <div class="primary-steppper-content-container">
+    <div class="primary-steppper-content">
+      <div class="primary-stepper-circle w_3_rem h_3_rem background_color_primary border_radius_senary color_white font_size_large font_weight_bold display_grid place_content_center">
+        <i class="fa-solid fa-check color_white font_size_large"></i>
+      </div>
+      <div class="primary-stepper-text-container">
+        <div class="primary-stepper-title font_size_medium font_weight_bold">Order Placed</div>
+        <div class="primary-stepper-description color_toast font_size_medium">Your order has been placed</div>
+      </div>
+    </div>
+    <div class="primary-steppper-content">
+      <div class="primary-stepper-circle w_3_rem h_3_rem background_color_disabled border_radius_senary color_white font_size_large font_weight_bold display_grid place_content_center">
+        2 
+      </div>
+      <div class="primary-stepper-text-container">
+        <div class="primary-stepper-title font_size_medium font_weight_bold">Preparing</div>
+        <div class="primary-stepper-description color_toast font_size_medium">Your order is being prepared</div>
+      </div>
+    </div>
+    <div class="primary-steppper-content">
+      <div class="primary-stepper-circle w_3_rem h_3_rem background_color_disabled border_radius_senary color_white font_size_large font_weight_bold display_grid place_content_center">
+        3 
+      </div>
+      <div class="primary-stepper-text-container">
+        <div class="primary-stepper-title font_size_medium font_weight_bold">On the way</div>
+        <div class="primary-stepper-description color_toast font_size_medium">Your order is being shipped</div>
+      </div>
+    </div>
+    <div class="primary-steppper-content">
+      <div class="primary-stepper-circle w_3_rem h_3_rem background_color_disabled border_radius_senary color_white font_size_large font_weight_bold display_grid place_content_center">
+        4 
+      </div>
+      <div class="primary-stepper-text-container">
+        <div class="primary-stepper-title font_size_medium font_weight_bold">Delivered</div>
+        <div class="primary-stepper-description color_toast font_size_medium">Your order was delivered successfully</div>
+      </div>
+    </div>
+  </div>
+</div>
+```
+
+## Input 
+
+```sh
+<div class="primary-input-container display_grid place_content_center">
+  <div class="primary-input-content-container">
+    <i class="fa-solid fa-envelope primary-input-icon color_primary"></i>
+    <input type="email" class="primary-input background_color_white color_black font_size_medium" placeholder="Email" autocomplete="off">
+  </div>
+  <hr class="primary-input-line border_color_primary">
+</div>
+
+------------------------------------------------------------------
+
+<div class="secondary-input-content-container margin_bottom_1_rem w_19_point_5_rem border_primary border_radius_secondary">
+  <input class="secondary-input" type="password" placeholder=" " autocomplete="off"/>
+  <label>Password</label>
+  <i class="fa-solid fa-lock secondary_input_icon color_primary"></i>
+</div>
+```
+
+## Search
+
+```sh
+<div class="primary-search-overlay" id="primarySearchOverlay"></div>
+<div class="primary-search-container background_color_white" id="primarySearchContainer">
+  <form class="primary-search-content-container" method="get">
+    <i class="fa-solid fa-arrow-left primary-search-icon color_black" id="hideSearch" data-toggle="tooltip" title="Back"></i>
+    <input class="primary-search-input w_100_pct background_color_white font_size_medium color_black border_none" type="text" placeholder="Search here...">
+    <button class="primary-search-button" type="submit"><i class="fa-solid fa-search primary-search-icon color_black" data-toggle="tooltip" title="Search"></i></button>
+  </form>
+</div>
+```
+
+## Checkbox
+
+```sh
+<div class="primary-checkbox-container">
+  <input class="primary-checkbox" type="checkbox">
+  <div class="primary-checkbox-description color_black font_size_small">I agree to the <a class="font_size_small color_primary" href="https://lonica.com/privacy-policy" target="_blank">Privacy Policy</a>.</div>
+</div>
+```
+
+## Button 
+
+```sh
+<button class="primary-button background_color_primary font_size_medium color_white border_radius_secondary display_flex column_gap_1_rem">
+  Login <i class="fa-solid fa-sign-in primary-button-icon color_white"></i>
+</button>
+
+------------------------------------------------------------------
+
+<button class="secondary-button background_color_primary border_radius_senary display_flex column_gap_1_rem">
+  Login <i class="fa-solid fa-sign-in secondary-button-icon"></i>
+</button>
+```
+
+## Onboarding Screen
+
+```sh
+<div class="primary-onboarding-screen-container" id="firstOnboardingScreen">
+  <div class="primary-onboarding-screen-content-container">
+    <div class="primary-onboarding-screen-top-content-container text_align_center">
+      <img class="primary-onboarding-screen-image w_11_rem margin_bottom_1_rem" src="https://firebasestorage.googleapis.com/v0/b/lonica.appspot.com/o/svg%2Fbadge.svg?alt=media&token=30a5229e-fcc8-46fa-ae2c-9339e5443df9" alt="badge">
+      <div class="primary-onboarding-screen-title font_size_large font_weight_bold margin_bottom_1_rem text_align_center">Trusted Worldwide</div>
+      <div class="primary-onboarding-screen-desc font_size_medium text_align_center">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, velit?</div>
+    </div>
+    <div class="primary-onboarding-screen-bottom-content-container w_100_pct display_grid place_content_center text_align_center">
+      <button class="primary-onboarding-screen-button w_17_point_5_rem margin_bottom_1_rem" id="firstOnboardingScreenButton">Next</button>
+      <button class="primary-onboarding-third-screen-button w_17_point_5_rem background_color_skeleton box_shadow_none color_black" id="firstOnboardingScreenSkipButton">Skip</button>
+    </div>
+  </div>
+</div>
+<div class="primary-onboarding-second-screen-overlay" id="primaryOnboardingSecondScreenOverlay"></div>
+<div class="primary-onboarding-second-screen-container" id="secondOnboardingScreen">
+  <div class="primary-onboarding-second-screen-content-container">
+    <div class="primary-onboarding-second-screen-top-content-container text_align_center">
+      <img class="primary-onboarding-second-screen-image w_11_rem margin_bottom_1_rem" src="https://firebasestorage.googleapis.com/v0/b/lonica.appspot.com/o/svg%2Fbag.svg?alt=media&token=4491e00b-00e0-4d9f-8031-9f83a741d8fc" alt="bag">
+      <div class="primary-onboarding-second-screen-title font_size_large font_weight_bold margin_bottom_1_rem text_align_center">Shop with Confident</div>
+      <div class="primary-onboarding-second-screen-desc font_size_medium text_align_center">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, velit?</div>
+    </div>
+    <div class="primary-onboarding-second-screen-bottom-content-container w_100_pct display_grid place_content_center text_align_center">
+      <div class="primary-onboarding-second-screen-stepper-container">
+        <div class="primary-onboarding-second-screen-stepper background_color_disabled"></div>
+        <div class="primary-onboarding-second-screen-stepper background_color_primary"></div>
+        <div class="primary-onboarding-second-screen-stepper background_color_disabled"></div>
+      </div>
+      <button class="primary-onboarding-second-screen-button w_17_point_5_rem" id="secondOnboardingScreenButton">Next</button>
+    </div>
+  </div>
+</div>
+<div class="primary-onboarding-third-screen-overlay" id="primaryOnboardingThirdScreenOverlay"></div>
+<div class="primary-onboarding-third-screen-container" id="thirdOnboardingScreen">
+  <div class="primary-onboarding-third-screen-content-container">
+    <div class="primary-onboarding-third-screen-top-content-container text_align_center">
+      <img class="primary-onboarding-third-screen-image w_11_rem margin_bottom_1_rem" src="https://firebasestorage.googleapis.com/v0/b/lonica.appspot.com/o/svg%2Fbar.svg?alt=media&token=c0f8822f-45b9-4576-bac7-1e6ceb47d09f" alt="bar">
+      <div class="primary-onboarding-third-screen-title font_size_large font_weight_bold margin_bottom_1_rem text_align_center">Track Fast</div>
+      <div class="primary-onboarding-third-screen-desc font_size_medium text_align_center">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, velit?</div>
+    </div>
+    <div class="primary-onboarding-third-screen-bottom-content-container w_100_pct display_grid place_content_center text_align_center">
+      <div class="primary-onboarding-third-screen-stepper-container">
+        <div class="primary-onboarding-third-screen-stepper background_color_disabled"></div>
+        <div class="primary-onboarding-third-screen-stepper background_color_disabled"></div>
+        <div class="primary-onboarding-third-screen-stepper background_color_primary"></div>
+      </div>
+      <button class="primary-onboarding-third-screen-button w_17_point_5_rem" id="thirdOnboardingScreenButton">Get Started</button>
+    </div>
+  </div>
+</div>
+```
+
+## Table 
+
+```sh
+<div class="primary-table-container">
+  <div class="primary-table-content-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Country</th>
+          <th>Nationality</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Philippines</td>
+          <td>Filipino</td>
+        </tr>
+        <tr>
+          <td>Korea</td>
+          <td>Korean</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+```
+
+## Licensing
+
+Copyright holder Allen Charls Casul. Source Code is under [the MIT license](https://github.com/allencasul/lonica/blob/main/LICENSE).
+
+
+
