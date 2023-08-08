@@ -36,7 +36,7 @@ if(isset($_POST['send'])){
   <script defer src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
   <script defer src="https://kit.fontawesome.com/1e8d61f212.js"></script>
 </head>
-<body class="center-fixed">
+<body class="center-absolute">
   <form class="display-grid row-gap-1-rem" method="post">
     <input class="box-shadow-primary" name="name" type="text" placeholder="Name" autocomplete="off" required />
     <input class="box-shadow-primary" name="email" type="email" placeholder="Email" autocomplete="off" required />
