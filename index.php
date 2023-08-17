@@ -32,9 +32,8 @@ if(isset($_POST['send'])){
 ?>
 <html>
 <head>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/allencasul/lonica@ecf757694536701bca01f35abccd027d973b87cb/css/cdn/lonica.css" integrity="sha256-ZvOPRbk40bnqb7kYJpMnfIBOoIKaHXksgI9BWuvupYE=" crossorigin="anonymous">
-  <script defer src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-  <script defer src="https://kit.fontawesome.com/1e8d61f212.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/allencasul/lonica@d9dbccfa5b0a4666760e4f72b28effa775c56857/css/cdn/lonica.css" integrity="sha256-E1S8yAbnRZ6uM4sA6NMSgTyoDsdK1ZCjBYF3lqXqv6Q=" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/1e8d61f212.js"></script>
 </head>
 <body class="center-absolute">
   <form class="display-grid row-gap-1-rem" method="post">
@@ -46,7 +45,5 @@ if(isset($_POST['send'])){
       Send <i class="fa-solid fa-paper-plane color-white margin-left-1-rem"></i>
     </button>
   </form>
-
-  <script defer src="https://cdn.jsdelivr.net/gh/allencasul/lonica@ecf757694536701bca01f35abccd027d973b87cb/js/components.min.js" integrity="sha256-RDu3ysp4BVgm91duXwSsiZ4cx8UGcnSA2hxKLFZMjP8=" crossorigin="anonymous"></script>
 </body>
 </html>
